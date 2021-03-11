@@ -1,0 +1,58 @@
+#header{
+    display:grid;
+    grid-template-columns: 5% 13% 6% 6% 6% 6% 6% 13% 5% 5% 5% 5% 5%;
+    grid-column-gap: 16px;
+    background-color: honeydew;
+
+}
+
+#square{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(180, 180, 180);
+    border:solid 2px rgb(0, 0, 0);
+
+}
+
+
+#cover-photo{
+    top: 0;
+    left: 0;
+    position: relative;
+    height:200px;
+    width: 99%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    background-color: rgb(160, 160, 160);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+#cover-photo-1{
+    top: 10px;
+    left: 160px;
+    position: relative;
+    height:200px;
+    width: 75%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    background-color: rgb(87, 87, 87);
+    border: solid 1px rgb(0, 0, 0);
+}
+
+#profile-photo{
+    top: 30px;
+    left: 600px;
+    position: absolute;
+    border: solid 1px black;
+    background-color: floralwhite;
+    height:15em;
+    width:15em;
+}
+
+#parent{
+    position: relative;
+    top: 0;
+    left: 0;
+}
