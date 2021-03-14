@@ -1,4 +1,14 @@
-#header{
+body{
+    margin: 0;
+    background-color: blue;
+
+}
+
+
+
+
+.header{
+    
     display:grid;
     grid-template-columns: 5% 13% 6% 6% 6% 6% 6% 13% 5% 5% 5% 5% 5%;
     grid-column-gap: 16px;
@@ -15,24 +25,28 @@
 }
 
 
-#cover-photo{
+.cover-background{
+    margin:0%;
     top: 0;
     left: 0;
     position: relative;
-    height:200px;
-    width: 99%;
+    height:300px;
+    width: 93%;
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 20px 10px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-top: 0;
     background-color: rgb(160, 160, 160);
     border: solid 1px rgb(0, 0, 0);
 }
 
 #cover-photo-1{
-    top: 10px;
+    
+    top: 0px;
     left: 160px;
-    position: relative;
-    height:200px;
+    position:absolute;
+    height:300px;
     width: 75%;
     overflow: hidden;
     background-color: #f1f1f1;
@@ -40,19 +54,62 @@
     background-color: rgb(87, 87, 87);
     border: solid 1px rgb(0, 0, 0);
 }
+.users-name{
+    position: center;
+    
 
-#profile-photo{
-    top: 30px;
+}
+
+#edit-photo{
+    background-color: blanchedalmond;
+    border:3px solid rgb(221, 10, 45);
+    position: absolute;
+    top: 15em;
+    left: 68em;
+    height:3em;
+    width:8em;
+}
+/* photo radius needs to decrease, make edges circular */
+#profile-photo1{
+    top: 11em;
     left: 600px;
     position: absolute;
     border: solid 1px black;
     background-color: floralwhite;
-    height:15em;
-    width:15em;
+    height:11em;
+    width:12em;
 }
 
-#parent{
+
+.parent{
     position: relative;
     top: 0;
     left: 0;
 }
+/* facebook feed content
+justify center doent work. Margin and padding didnt work*/
+#feed{
+    height:100%;
+    width: 100%;
+    background-color: cadetblue;
+    overflow: scroll;
+    display:grid;
+    grid-template-columns: 40% 40%;
+    /* justify-items:center; */
+}
+.half1{
+    padding:10px;
+    margin: auto;
+    overflow: scroll;
+    border: 2px solid black;
+    height:100%;
+    width:50%;
+}
+
+.half2{
+    overflow: scroll;
+    height:100%;
+    width:90%;
+    border:2px yellow solid;
+}
+
