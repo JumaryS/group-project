@@ -1,4 +1,6 @@
 body{
+    /* overflow: scroll; */
+    height: auto;
     margin: 0;
     background-color: blue;
 
@@ -8,14 +10,13 @@ body{
 
 
 .header{
-    
     display:grid;
-    grid-template-columns: 5% 13% 6% 6% 6% 6% 6% 13% 5% 5% 5% 5% 5%;
+    grid-template-columns: 5% 13% 6% 6% 6% 6% 6% 13% 5% 5% 5% 5% 5% ;
     grid-column-gap: 16px;
     background-color: honeydew;
 
 }
-
+/* position fixed made nav disapear */
 #square{
     height: 40px;
     width: 80px;
@@ -27,12 +28,12 @@ body{
 
 .cover-background{
     margin:0%;
+    /* overflow: scroll; */
+    max-height: 200px;
     top: 0;
     left: 0;
-    position: relative;
     height:300px;
     width: 93%;
-    overflow: hidden;
     background-color: #f1f1f1;
     padding-bottom: 200px;
     padding-left: 100px;
@@ -42,22 +43,41 @@ body{
 }
 
 #cover-photo-1{
-    
+    /* overflow: scroll;
+    max-height: 400px; */
     top: 0px;
     left: 160px;
     position:absolute;
     height:300px;
     width: 75%;
-    overflow: hidden;
+    /* overflow: scroll; */
     background-color: #f1f1f1;
     padding: 20px 10px;
     background-color: rgb(87, 87, 87);
     border: solid 1px rgb(0, 0, 0);
 }
-.users-name{
-    position: center;
-    
+.options{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% ;
+    font-size: 22px;
+    grid-column-gap: 20px  ;
+}
+#option-button{
 
+}
+
+#option-button1{
+    float: right;
+    height: auto;
+}
+.users-name{
+    font-size: 40px;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 15%;
+    height: auto;
+    width: 70%;
+    border:darksalmon 2px solid;
 }
 
 #edit-photo{
@@ -82,6 +102,8 @@ body{
 
 
 .parent{
+    overflow: scroll;
+    max-height: 100%;
     position: relative;
     top: 0;
     left: 0;
@@ -89,27 +111,70 @@ body{
 /* facebook feed content
 justify center doent work. Margin and padding didnt work*/
 #feed{
+    padding:2em;
+    padding-left:20%;
     height:100%;
-    width: 100%;
+    width: auto;
     background-color: cadetblue;
-    overflow: scroll;
+    /* overflow: scroll; */
+    max-height: 200px;
     display:grid;
     grid-template-columns: 40% 40%;
-    /* justify-items:center; */
+    justify-items:center;
 }
 .half1{
-    padding:10px;
-    margin: auto;
+    border: darkorange solid 1px;
+    display:grid;
+    grid-template-rows: 3% 15% 15% 15%;
+    grid-row-gap: 1px;
     overflow: scroll;
-    border: 2px solid black;
-    height:100%;
-    width:50%;
+    max-height: 100%;
 }
+#half1-square1{
+    height: 200px;
+    width:400px;
+    border: chartreuse solid 2px;
+}
+#half1-square2{
+    height: 300px;
+    width:400px;
+    border: rgb(218, 21, 236) solid 2px;
+}
+#half1-square3{
+    height: 300px;
+    width:400px;
+    border: chartreuse solid 2px;
+}
+#half1-square4{
+    height: 400px;
+    width:400px;
+    border: chartreuse solid 2px;
+}
+
 
 .half2{
+    display: grid;
+    grid-row-gap: 20px;
+    padding:10px;
     overflow: scroll;
-    height:100%;
+    max-height:98%;
+    height:auto;
     width:90%;
-    border:2px yellow solid;
+    border:yellow solid;
+    /* max-height: 1300px; */
 }
 
+#half2-square{
+    height: 300px;
+    width:400px;
+    border: chartreuse solid 2px;
+}
+
+
+.footer{
+    position: relative;
+    background-color: chartreuse;
+    height: 4em;
+    width:19em;
+    border: chartreuse solid 2px;
+}
