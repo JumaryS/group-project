@@ -31,7 +31,7 @@ color:tomato;
 
 .Navbar button{
     padding-top: 4px;
-    color: rgb(194, 194, 194);
+    color:rgb(96, 98, 102);
     background-color: transparent;
     position: absolute;
     border: none;
@@ -129,17 +129,17 @@ color:tomato;
     border-radius: 100%;
 }
 #border-top{
+    padding-top: 0%;
     font-weight: bold;
     font-size: 20px;
     color: rgb(219, 219, 219);
     right: 75px;
-    padding: 0%;
     text-align: center;
-    top: 0%;
     position: relative;
 
 }
 #Name{
+    margin-bottom: 0%;
     position: relative;
     margin-top: 1%;
     font-weight: bold;
@@ -154,7 +154,7 @@ color:tomato;
 
 
 .left {
-    margin:0%;
+    margin-top: 0%;
     position: relative;
     overflow: hidden;
     background-color:transparent;
@@ -167,18 +167,19 @@ color:tomato;
     text-align: center;
     padding: 8px 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
+    color: rgb(96, 98, 102);
 }
 
 .left a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(221, 222, 222);
+    color: rgb(96, 98, 102);
 }
 
 .right {
 
     font-size: 20px;
-    padding-right: 11em;
+    padding-right: 19em;
     float: right;
 }
 
@@ -201,14 +202,16 @@ justify center doent work. Margin and padding didnt work*/
     justify-items:center;
 }
 .half1{
+    top: 0%;
     border: darkorange solid 3px;
     display: grid;
-    grid-row-gap: 20px;
+    /* grid-row-gap: 50px ; */
     padding:10px;
-    overflow: scroll;
+    /* overflow: scroll; */
     max-height:25%;
     height:auto;
     width:90%;
+    
     /* display:grid;
     justify-content: space-between; */
     /* grid-template-rows:;
