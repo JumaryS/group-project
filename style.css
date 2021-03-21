@@ -267,13 +267,14 @@ justify center doent work. Margin and padding didnt work*/
 }
 
 #half2-square{
-    height: 300px;
+    font-size: 12px;
+    height: 400px;
     width:400px;
-    border: rgb(248, 248, 248) solid 2px;
+    border: rgb(187, 45, 45) solid 2px;
 }
 
 .half2 img{
     height: 20em;
-    width:25em;
+    width:100%;
 }
 
