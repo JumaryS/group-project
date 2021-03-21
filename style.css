@@ -261,7 +261,7 @@ justify center doent work. Margin and padding didnt work*/
     grid-row-gap: 80px;
     padding-top:40px;
     overflow: scroll;
-    max-height:96%;
+    max-height:36%;
     width:90%;
     /* max-height: 1300px; */
 }
