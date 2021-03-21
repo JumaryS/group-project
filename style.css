@@ -204,6 +204,7 @@ justify center doent work. Margin and padding didnt work*/
 
 
 
+
 .half1{
     display: grid;
     max-height:25%;
@@ -222,6 +223,7 @@ justify center doent work. Margin and padding didnt work*/
     background-color: white;
     border-radius: 10px 10px;
     left:10px;
+    border: rgb(228, 228, 228) solid 1px;
 }
 .half1 img{
     /* left: 1000px; */
@@ -229,10 +231,14 @@ justify center doent work. Margin and padding didnt work*/
     height: 120px;
     width: 120px;
 }
+.half1 #career-elon{
+    text-align: left;
+    font: 10px;
+}
 .half1 #half1-square1{
     background-color:white;
     border-radius: 10px 10px;
-    border: tomato solid;
+    border: rgb(228, 228, 228) solid 1px;
     text-align: left;
     margin: 0%;
     height: 200px;
