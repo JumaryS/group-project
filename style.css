@@ -42,7 +42,7 @@ color:tomato;
     width: 220px;
     border: none;
     border-radius: 50PX;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 243, 243);
     
 }
 
@@ -59,7 +59,7 @@ color:tomato;
 }
 
 .buttons{
-    color:grey;
+    color:rgb(149, 149, 149);
     font-size: 20px;
 }
 
@@ -261,16 +261,15 @@ justify center doent work. Margin and padding didnt work*/
     grid-row-gap: 80px;
     padding-top:40px;
     overflow: scroll;
-    max-height:36%;
+    max-height:96%;
     width:90%;
-    border:yellow solid;
     /* max-height: 1300px; */
 }
 
 #half2-square{
     height: 300px;
     width:400px;
-    border: chartreuse solid 2px;
+    border: rgb(248, 248, 248) solid 2px;
 }
 
 .half2 img{
@@ -278,10 +277,3 @@ justify center doent work. Margin and padding didnt work*/
     width:25em;
 }
 
-.footer{
-    position: relative;
-    background-color: chartreuse;
-    height: 4em;
-    width:19em;
-    border: chartreuse solid 2px;
-}
