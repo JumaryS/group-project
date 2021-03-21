@@ -201,43 +201,50 @@ justify center doent work. Margin and padding didnt work*/
     grid-template-columns: 40% 40%;
     justify-items:center;
 }
+
+/* CODE REFFERENCED W3SCHOOL */
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
 .half1{
     background-color: gainsboro;
     margin: 0%;
     border: darkorange solid 3px;
     display: grid;
-
     max-height:25%;
     height:auto;
     width:90%;
 }
-/* .half1 p{
-    margin: 0%;
-    background-color: hotpink;
-    padding-bottom: 0%;
-} took out p tag */
+.half1 img{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
 .half1 #half1-square1{
+    
+    padding: 0%;
     margin: 0%;
     background-color: gold;
     height: 200px;
     width:400px;
     border: chartreuse solid 2px;
 }
-/* #half1-square2{
-    height: 300px;
-    width:400px;
-    border: rgb(218, 21, 236) solid 2px;
-}
-#half1-square3{
-    height: 300px;
-    width:400px;
-    border: chartreuse solid 2px;
-}
-#half1-square4{
-    height: 400px;
-    width:400px;
-    border: chartreuse solid 2px;
-} */
 
 
 .half2{
