@@ -202,24 +202,23 @@ justify center doent work. Margin and padding didnt work*/
     justify-items:center;
 }
 .half1{
-    top: 0%;
+    background-color: gainsboro;
+    margin: 0%;
     border: darkorange solid 3px;
     display: grid;
-    /* grid-row-gap: 50px ; */
-    padding:10px;
-    /* overflow: scroll; */
+
     max-height:25%;
     height:auto;
     width:90%;
-    
-    /* display:grid;
-    justify-content: space-between; */
-    /* grid-template-rows:;
-    grid-row-gap: 1px; */
-    /* overflow: scroll; */
-    /* max-height: 65%; */
 }
-#half1-square1{
+/* .half1 p{
+    margin: 0%;
+    background-color: hotpink;
+    padding-bottom: 0%;
+} took out p tag */
+.half1 #half1-square1{
+    margin: 0%;
+    background-color: gold;
     height: 200px;
     width:400px;
     border: chartreuse solid 2px;
