@@ -207,6 +207,7 @@ justify center doent work. Margin and padding didnt work*/
 
 .half1{
     display: grid;
+    grid-row-gap: 80px;
     max-height:25%;
     height:auto;
     width:90%;
@@ -257,11 +258,10 @@ justify center doent work. Margin and padding didnt work*/
 }
 .half2{
     display: grid;
-    grid-row-gap: 20px;
-    padding:10px;
+    grid-row-gap: 80px;
+    padding-top:40px;
     overflow: scroll;
-    max-height:25%;
-    height:auto;
+    max-height:36%;
     width:90%;
     border:yellow solid;
     /* max-height: 1300px; */
@@ -273,6 +273,10 @@ justify center doent work. Margin and padding didnt work*/
     border: chartreuse solid 2px;
 }
 
+.half2 img{
+    height: 20em;
+    width:25em;
+}
 
 .footer{
     position: relative;
