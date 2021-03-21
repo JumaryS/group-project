@@ -2,73 +2,172 @@ body{
     /* overflow: scroll; */
     height: auto;
     margin: 0;
-    background-color: white;
+    background-color:white;
+}
 
+
+.Navbar{
+    position: sticky;
+    box-shadow: 0px 1px 10px #999;
+    border-bottom: rgb(233, 233, 233);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 3%;
+    background-color:white;
+    box-shadow:20px 20px gray;
 }
-.navBar{
-    display:grid;
-    grid-template-columns: 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+
+.Navbar a:hover{
+background-color: white;
+color:tomato;
 }
+
+.Navbar form{
+    padding-top: 10px;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+
+.Navbar button{
+    padding-top: 4px;
+    color: rgb(194, 194, 194);
+    background-color: transparent;
+    position: absolute;
+    border: none;
+}
+.Navbar form input{
+    text-align: center;
+    height: 30px;
+    width: 220px;
+    border: none;
+    border-radius: 50PX;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+#search-FB{
+    display: flex;
+}
+
+
 #fbsquare{
-    height:90px;
-    width:90px;
+    top: auto;
+    height:40px;
+    width:40px;
+    padding-left:0px;
 }
+
+.buttons{
+    color:grey;
+    font-size: 20px;
+}
+
+.buttons a{
+    padding: 12px 14px;
+}
+
+#nav{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#nav a{
+    padding: 2px 2px;
+    text-decoration: none;
+}
+
+
+
+
 
 .photos{
-    padding:20px;
+    margin-top: 0;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    /* margin-top:0%; */
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    
 }
 
+#gradient{
+    
+    height:504px;
+    width: 100%;
+    left: 0%;
+    background-image: linear-gradient(grey white black);
+    position: absolute;
+}
+
+
 #cover-photo{
+    background-color: white;
     position: relative;
+    margin-top: 0;
+    left:6%;
     /*display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;  this code made the profile photo to move out of place*/
-    height: 400px;
-    width:700px;
-    border: 1px red solid;
+    height: 340px;
+    width:880px;
+    /* border: 1px red solid; */
 }
 
 #profile-photo{
     background-color: white;
     position: absolute;
-    top: 300px;
-    left: 300px;
+    top: 200px;
+    left: 43%;
     padding:2px;
     height:160px;
     width:160px;
     border-radius: 100%;
 }
+#border-top{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(219, 219, 219);
+    right: 75px;
+    padding: 0%;
+    text-align: center;
+    top: 0%;
+    position: relative;
 
+}
 #Name{
+    position: relative;
+    margin-top: 1%;
+    font-weight: bold;
+    font-style:normal;
+    padding-top: 0px;
     font-size: 30px;
     color:black; 
+    text-align:center;
+    padding-right: 18%;
 }
 
-#border-top{
-width:500px;
-position: relative;
-}
+
 
 .left {
-    border-top: solid black 1px;
-    /* position: relative; */
+    margin:0%;
+    position: relative;
     overflow: hidden;
-    background-color:white;
-    padding-left: 14em;
+    background-color:transparent;
+    padding-left: 18em;
 }
 
 .left a {
     float: left;
 /* color: #f2f2f2; */
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .left a:hover {
